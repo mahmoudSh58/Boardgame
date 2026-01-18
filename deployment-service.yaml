@@ -1,6 +1,6 @@
 ---
-apiVersion: app/v1
-kind: Deployment 
+apiVersion: apps/v1
+kind: Deployment
 metadata:
   name: boardgame-deployment
   namespace: myapp
