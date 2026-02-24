@@ -42,6 +42,34 @@ This web application displays lists of board games and their reviews. While anyo
 - Schema.sql file to customize the schema and input initial data
 - Thymeleaf Fragments to reduce redundancy of repeating HTML elements (head, footer, navigation)
 
+## Deployment
+
+### Deployment Architecture
+
+![Deployment Architecture](assest/digram.png)
+
+### Technologies Used for Deployment
+
+- **Kubernetes**: Container orchestration and management
+- **Docker**: Application containerization
+- **Jenkins**: CI/CD pipeline automation
+- **SonarQube** : Code quality and security analysis
+- **Trivy**: Container security scanning
+- **Prometheus**: Metrics collection and monitoring
+- **Grafana**: Monitoring dashboard and visualization
+- **Sonatype**: Artifact repository management
+- **Nexus Repository**: Artifact repository management
+- **Email Notifications**: Automated email alerts for deployment events
+
+### Deployment Features
+
+- **Automated Pipeline**: Jenkins automates build, test, and deployment processes
+- **Security Scanning**: Multi-stage security scanning with SonarQube and Trivy
+- **Container Registry**: Artifacts stored in Sonatype repository
+- **Kubernetes Orchestration**: Load balancing, auto-scaling, and self-healing
+- **Monitoring & Observability**: Real-time metrics and alerting with Prometheus and Grafana
+- **High Availability**: Multi-node cluster with load distribution
+- **Email Notifications**: Alerts for deployment status and issues
 ## How to Run
 
 1. Clone the repository
